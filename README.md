@@ -7,7 +7,7 @@ Hecho con TanStack Start, React, Tailwind, Supabase (login y base de datos) y la
 ## 1. Supabase (base de datos y login)
 
 1. Crea un proyecto gratis en [supabase.com](https://supabase.com).
-2. En **SQL Editor**, pega y ejecuta el contenido de `drizzle/migrations/0000_accounts_and_diagnoses.sql`. Crea las tablas y la seguridad por usuario.
+2. En **SQL Editor → New query**, pega todo el contenido de `supabase/setup.sql` y presiona **Run**. Crea las tablas y la seguridad por usuario. Se puede ejecutar más de una vez sin problema.
 3. En **Project Settings → API** copia:
    - Project URL
    - Publishable key (`sb_publishable_...`)
